@@ -274,8 +274,8 @@ func CreateCentralPixelBenchmark(galaxyClusterSolutions map[int][]float64,
 func main() {
 
 	// Get RGB values for central pixel in training and test images
-	trainingImagesPath := "GalaxyIdsForJPG/images_training/*.jpg"
-	testImagesPath := "GalaxyIdsForJPG/images_test/*.jpg"
+	trainingImagesPath := "images_training/*.jpg"
+	testImagesPath := "images_test/*.jpg"
 	trainingGalaxyRGB := GetGalaxyRGB(trainingImagesPath)
 	testGalaxyRGB := GetGalaxyRGB(testImagesPath)
 
